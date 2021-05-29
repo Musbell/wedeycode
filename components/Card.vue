@@ -7,7 +7,7 @@
           <img class="w-10 h-10 rounded-full mr-4" :src="post.photo" alt="Avatar of Writer">
           <div class="mb-2">
             <p class="font-bold text-gray-900 leading-none">{{ post.title }}</p>
-            <p class="text-gray-600">by {{  post.author}}</p>
+            <p class="text-gray-600">by {{ post.author }}</p>
           </div>
         </div>
         <p class="text-gray-700 text-base">
@@ -24,7 +24,7 @@
 
 </template>
 <script lang="ts">
-import { defineComponent, useRouter} from "@nuxtjs/composition-api";
+import { defineComponent } from "@nuxtjs/composition-api";
 
 export default defineComponent({
   name: 'Card',
@@ -33,11 +33,6 @@ export default defineComponent({
       type: Object,
       required: true
     }
-  },
-  setup() {
-    const router = useRouter()
-    const visitBlog = (id: string) => router.push(`/${id}`)
-    return { visitBlog }
   }
 })
 

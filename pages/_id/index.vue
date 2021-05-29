@@ -21,7 +21,7 @@
 
 <script lang="ts">
 import { defineComponent } from "@nuxtjs/composition-api";
-import { useBlog } from "~/compositions/card";
+import { useBlog } from "~/compositions/blog";
 
 export default defineComponent({
   name: "index",

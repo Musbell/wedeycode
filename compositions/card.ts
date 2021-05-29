@@ -1,6 +1,5 @@
-import { useRoute, computed } from "@nuxtjs/composition-api";
 import { useQuery, useResult } from '@vue/apollo-composable/dist'
-import { GET_POSTS, POST } from "~/gql/post.queries";
+import { GET_POSTS } from "~/gql/post.queries";
 
 export const useCard = () => {
   interface Post {
@@ -22,12 +21,3 @@ export const useCard = () => {
   return { posts, loading, error  }
 }
 
-export const useBlog = () => {
-  const route = useRoute()
-  const id = computed(() => route.value.params.id)
-  const { result, loading, error} = useQuery(POST, {
-    id,
-  })
-  const post = useResult(result, null, data => data.getObject)
-  return { post, loading, error }
-}
