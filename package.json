@@ -15,7 +15,7 @@
     "@vue/apollo-composable": "^4.0.0-alpha.12",
     "core-js": "^3.13.1",
     "graphql-tag": "^2.12.4",
-    "nuxt": "^2.15.3"
+    "nuxt": "^2.15.7"
   },
   "devDependencies": {
     "@nuxt/types": "^2.15.3",
