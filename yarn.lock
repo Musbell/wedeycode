@@ -2542,13 +2542,13 @@
   resolved "https://registry.yarnpkg.com/@types/zen-observable/-/zen-observable-0.8.2.tgz#808c9fa7e4517274ed555fa158f2de4b4f468e71"
   integrity sha512-HrCIVMLjE1MOozVoD86622S7aunluLb2PJdPfb3nYiEtohm8mIB/vyv0Fd37AdeMFrTUQXEunw78YloMA3Qilg==
 
-"@vue/apollo-composable@^4.0.0-alpha.12":
-  version "4.0.0-alpha.12"
-  resolved "https://registry.yarnpkg.com/@vue/apollo-composable/-/apollo-composable-4.0.0-alpha.12.tgz#5aab61bf9703a039e95ef60ecb2293e1da80c87f"
-  integrity sha512-BhCHhDgcDPkKOE3ILb7xIGI98dAsX2Ao3TvOjcMlr89IOK3TuD5B9xgPTsFdctTbupWIVdR/n0FDVXjha7g5iA==
+"@vue/apollo-composable@^4.0.0-alpha.14":
+  version "4.0.0-alpha.14"
+  resolved "https://registry.yarnpkg.com/@vue/apollo-composable/-/apollo-composable-4.0.0-alpha.14.tgz#6e3358fa9b815b38384d3da59b5c2b77b2b229d3"
+  integrity sha512-bIOWRGk1j+b2ebsLfwQkzqvJd1tCpHZiBF2Qe88RTLUxtypdkdSW6YpLxwJgNoRv5W55sM9WI+nP2ziv2nqBZg==
   dependencies:
     throttle-debounce "^2.3.0"
-    vue-demi "^0.4.0"
+    vue-demi "^0.9.1"
 
 "@vue/babel-helper-vue-jsx-merge-props@^1.2.1":
   version "1.2.1"
@@ -12129,10 +12129,10 @@ vue-client-only@^2.0.0:
   resolved "https://registry.yarnpkg.com/vue-client-only/-/vue-client-only-2.0.0.tgz#ddad8d675ee02c761a14229f0e440e219de1da1c"
   integrity sha512-arhk1wtWAfLsJyxGMoEYhoBowM87/i6HLSG2LH/03Yog6i2d9JEN1peMP0Ceis+/n9DxdenGYZZTxbPPJyHciA==
 
-vue-demi@^0.4.0:
-  version "0.4.5"
-  resolved "https://registry.yarnpkg.com/vue-demi/-/vue-demi-0.4.5.tgz#ea422a4468cb6321a746826a368a770607f87791"
-  integrity sha512-51xf1B6hV2PfjnzYHO/yUForFCRQ49KS8ngQb5T6l1HDEmfghTFtsxtRa5tbx4eqQsH76ll/0gIxuf1gei0ubw==
+vue-demi@^0.9.1:
+  version "0.9.1"
+  resolved "https://registry.yarnpkg.com/vue-demi/-/vue-demi-0.9.1.tgz#25d6e1ebd4d4010757ff3571e2bf6a1d7bf3de82"
+  integrity sha512-7s1lufRD2l369eFWPjgLvhqCRk0XzGWJsQc7K4q+0mZtixyGIvsK1Cg88P4NcaRIEiBuuN4q1NN4SZKFKwQswA==
 
 vue-hot-reload-api@^2.3.0:
   version "2.3.4"
